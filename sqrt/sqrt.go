@@ -1,4 +1,4 @@
-package main
+package sqrt
 
 import (
 	"fmt"
@@ -28,7 +28,7 @@ func Sqrt(num float64) float64 {
 	return root
 }
 
-func main() {
+func Run() {
 	var num float64
 	fmt.Print("Enter a positive integer: ")
 	_, err := fmt.Scan(&num)

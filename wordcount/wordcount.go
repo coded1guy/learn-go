@@ -1,4 +1,4 @@
-package main
+package wc
 
 import (
 	"bufio"
@@ -21,7 +21,7 @@ func WordCount(s string) map[string]int {
 	return m
 }
 
-func main() {
+func Run() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter a sentence and I'll return a map of word count: ")
 	input_s, _ := reader.ReadString('\n')
